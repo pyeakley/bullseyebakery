@@ -109,6 +109,25 @@ a:visited:hover {
   width: 100%;
 }
 
+.flavtitle{
+  color: #fd4345;
+  font-size: 25px;
+}
+
+.flavlist{
+  list-style-position: inside;
+}
+
+.list{
+  text-align: left;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+
 img {
   width: 100%;
 }
@@ -199,5 +218,19 @@ html {
 
     .form{
       font-size: 25px;
+    }
+    .textbox{
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+
+    .list{
+      margin:auto;
+      position:relative;
+      width: 400px;
+    }
+
+    .flavlist{
+      display: inline-block;
     }
 }
